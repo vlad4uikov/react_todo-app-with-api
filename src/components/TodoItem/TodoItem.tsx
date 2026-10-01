@@ -151,7 +151,7 @@ export const TodoItem: React.FC<Props> = ({
           <input
             data-cy="TodoTitleField"
             type="text"
-            className="todo__title"
+            className="todo__title-field"
             ref={editingRef}
             value={editTitle}
             onChange={event => setEditTitle(event.target.value)}
